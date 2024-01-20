@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"a48020219d12f30b","type":"text","text":"hello\n","x":-200,"y":-40,"width":100,"height":60},
+		{"id":"7bce5f861c5b3c61","type":"text","text":"","x":-20,"y":-40,"width":140,"height":80},
+		{"id":"5d5524c9325a8a30","type":"text","text":"[【基德】谁是中国的spaceX？中国民营火箭全系评测_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1UV411X7W3/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=f84dda5a37364c3a2307b04a41f91dee)","x":70,"y":-200,"width":250,"height":110,"color":"1"},
+		{"id":"124ffdd3df257ff2","type":"text","text":"","x":195,"y":-10,"width":186,"height":147}
+	],
+	"edges":[
+		{"id":"833d0570bf121082","fromNode":"a48020219d12f30b","fromSide":"right","toNode":"7bce5f861c5b3c61","toSide":"left"}
+	]
+}
