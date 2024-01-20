@@ -118,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -140,8 +138,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6edf596b193adf79",
+  "active": "37e6000a22c7060e",
   "lastOpenFiles": [
+    "新建 文本文档.txt",
+    "README.md",
     "未命名.canvas",
     "Obsidian使用/关系图.canvas",
     "Obsidian使用/Welcome.md",
