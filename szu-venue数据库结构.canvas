@@ -15,7 +15,8 @@
 		{"id":"d5f6c9bfbf1495c6","x":440,"y":-200,"width":400,"height":240,"type":"text","text":"场地申请（applicantion）\nid\napplicant_id  申请人学工号\nresponsible_teacher_ids  指导老师学工号\nsupervising_organization_ids 主管单位角色ID数组\nvenue_ids 申请场地ID数组\n。。。申请表相关内容"},
 		{"id":"b998f790c945fd18","x":440,"y":-540,"width":405,"height":220,"type":"text","text":"场地锁（venue_lock）\nid\nvenue_ids(场地ID数组')\ncreate_id创建人id\n锁定时间、原因"},
 		{"id":"66f65cade607e66e","x":1037,"y":-320,"width":288,"height":240,"type":"text","text":"场地表(venue)\nid\ntype_id场地类型id\n名称，描述，。。。"},
-		{"id":"06f877244e4a53e4","x":712,"y":140,"width":325,"height":180,"type":"text","text":"场地类型表（venue_type）\nid\napproval_process_id(审批流程ID)\n注意事项，用途，布置内容，设备。。。\n\n"}
+		{"id":"06f877244e4a53e4","x":712,"y":140,"width":325,"height":180,"type":"text","text":"场地类型表（venue_type）\nid\napproval_process_id(审批流程ID)\n注意事项，用途，布置内容，设备。。。\n\n"},
+		{"id":"bedfe20d8d7f68b3","x":-1886,"y":-441,"width":250,"height":366,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"c46d12ea28851fff","fromNode":"8236a4cb8fc662d5","fromSide":"top","toNode":"5ce4da55a261226d","toSide":"bottom","label":"role_id"},
