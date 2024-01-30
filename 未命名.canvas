@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"1dafeb48d56429a2","x":-620,"y":-560,"width":780,"height":670,"type":"group","label":"用户相关（user、role、permission）"},
-		{"id":"d5f6c9bfbf1495c6","x":444,"y":-423,"width":250,"height":60,"type":"text","text":""},
-		{"id":"8236a4cb8fc662d5","x":-560,"y":-60,"width":250,"height":150,"type":"text","text":"用户与用户角色表\nuser_id\nrole_id\ncard_no"},
-		{"id":"343fe2f3b2d5a279","x":-80,"y":-500,"width":220,"height":120,"type":"text","text":"权限分类表\nid"},
-		{"id":"36bfd9b64dcc999e","x":-80,"y":-280,"width":220,"height":120,"type":"text","text":"用户权限表\nid\ncategory_id"},
-		{"id":"5ce4da55a261226d","x":-320,"y":-500,"width":210,"height":120,"type":"text","text":"用户角色表\nid"},
-		{"id":"b095ff58832adf72","x":-560,"y":-500,"width":220,"height":120,"type":"text","text":"用户表\nid\ncard_no"},
-		{"id":"7cd0e4f71897cb18","x":-235,"y":-35,"width":250,"height":125,"type":"text","text":"角色与权限中间表\nrole_id\npermission_id\n"}
+		{"id":"1dafeb48d56429a2","x":-760,"y":-600,"width":780,"height":670,"type":"group","label":"用户相关（user、role、permission）"},
+		{"id":"d5f6c9bfbf1495c6","x":360,"y":-540,"width":334,"height":590,"type":"text","text":"申请表"},
+		{"id":"8236a4cb8fc662d5","x":-700,"y":-100,"width":250,"height":150,"type":"text","text":"用户与用户角色表\nuser_id\nrole_id\ncard_no"},
+		{"id":"343fe2f3b2d5a279","x":-220,"y":-540,"width":220,"height":120,"type":"text","text":"权限分类表\nid"},
+		{"id":"36bfd9b64dcc999e","x":-220,"y":-320,"width":220,"height":120,"type":"text","text":"用户权限表\nid\ncategory_id"},
+		{"id":"5ce4da55a261226d","x":-460,"y":-540,"width":210,"height":120,"type":"text","text":"用户角色表\nid"},
+		{"id":"b095ff58832adf72","x":-700,"y":-540,"width":220,"height":120,"type":"text","text":"用户表\nid\ncard_no"},
+		{"id":"7cd0e4f71897cb18","x":-375,"y":-75,"width":250,"height":125,"type":"text","text":"角色与权限中间表\nrole_id\npermission_id\n"}
 	],
 	"edges":[
 		{"id":"c46d12ea28851fff","fromNode":"8236a4cb8fc662d5","fromSide":"top","toNode":"5ce4da55a261226d","toSide":"bottom","label":"role_id"},
