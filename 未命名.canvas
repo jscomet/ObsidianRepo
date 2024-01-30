@@ -7,7 +7,7 @@
 		{"id":"5ce4da55a261226d","x":-460,"y":-540,"width":210,"height":120,"type":"text","text":"用户角色表\nid"},
 		{"id":"b095ff58832adf72","x":-700,"y":-540,"width":220,"height":120,"type":"text","text":"用户表\nid\ncard_no"},
 		{"id":"7cd0e4f71897cb18","x":-375,"y":-75,"width":250,"height":125,"type":"text","text":"角色与权限中间表\nrole_id\npermission_id\n"},
-		{"id":"d5f6c9bfbf1495c6","x":440,"y":-492,"width":400,"height":332,"type":"text","text":"申请表\nid\napplicant_id  申请人学工号\nresponsible_teacher_ids  指导老师学工号\nsupervising_organization_ids 主管单位角色ID数组\nvenue_ids 申请场地ID数组"},
+		{"id":"d5f6c9bfbf1495c6","x":440,"y":-400,"width":400,"height":240,"type":"text","text":"场地申请表（applicantion）\nid\napplicant_id  申请人学工号\nresponsible_teacher_ids  指导老师学工号\nsupervising_organization_ids 主管单位角色ID数组\nvenue_ids 申请场地ID数组"},
 		{"id":"66f65cade607e66e","x":514,"y":-900,"width":250,"height":172,"type":"text","text":"场地表(venue)\nid"},
 		{"id":"5603736e60e40a8c","x":440,"y":400,"width":400,"height":259,"type":"text","text":"审批步骤\nid\nprocess_id 审批流程ID"},
 		{"id":"a73f4a34a5f03504","x":440,"y":-12,"width":400,"height":332,"type":"text","text":"审批记录表\nid\napplication_id 申请人id\napprover_id 审批人学工号\napproval_step_id 审批步骤id\n\nresult       审批结果（0-否决；1-通过）',  \ncomment        '审批备注',"},
