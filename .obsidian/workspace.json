@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "未命名.canvas",
+                "file": "szu-venue数据库结构.canvas",
                 "viewState": {
-                  "x": 120.51730998354044,
-                  "y": -433.64298220268967,
-                  "zoom": -1.2599999999999998
+                  "x": 57.62865282830012,
+                  "y": -451.3247799505034,
+                  "zoom": -1.8249999999999997
                 }
               }
             }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.canvas",
+                "file": "szu-venue数据库结构.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.canvas",
+                "file": "szu-venue数据库结构.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.canvas"
+                "file": "szu-venue数据库结构.canvas"
               }
             }
           },
@@ -170,7 +170,7 @@
   "lastOpenFiles": [
     "2024-01-20.md",
     "202401201641.md",
-    "未命名.canvas",
+    "szu-venue数据库结构.canvas",
     "Obsidian使用/关系图.canvas",
     "Obsidian使用/hello Obsidian.md",
     "Obsidian使用/Obsidian使用.md",
