@@ -1,8 +1,12 @@
 {
 	"nodes":[
-		{"id":"b095ff58832adf72","x":-420,"y":-300,"width":220,"height":174,"type":"text","text":"用户表"},
-		{"id":"5ce4da55a261226d","x":-120,"y":-300,"width":210,"height":174,"type":"text","text":"用户角色表"},
-		{"id":"36bfd9b64dcc999e","x":-435,"y":-100,"width":250,"height":166,"type":"text","text":"用户权限表"}
+		{"id":"b095ff58832adf72","x":-435,"y":-400,"width":220,"height":174,"type":"text","text":"用户表\nid"},
+		{"id":"5ce4da55a261226d","x":-100,"y":-380,"width":210,"height":174,"type":"text","text":"用户角色表\nid"},
+		{"id":"36bfd9b64dcc999e","x":-325,"y":-20,"width":250,"height":166,"type":"text","text":"用户权限表"},
+		{"id":"8236a4cb8fc662d5","x":-280,"y":-160,"width":250,"height":150,"type":"text","text":"用户与用户角色表\n"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"828a26e6d9fb066c","fromNode":"b095ff58832adf72","fromSide":"bottom","toNode":"8236a4cb8fc662d5","toSide":"top"},
+		{"id":"d7bf1928f8892128","fromNode":"5ce4da55a261226d","fromSide":"bottom","toNode":"8236a4cb8fc662d5","toSide":"top"}
+	]
 }
