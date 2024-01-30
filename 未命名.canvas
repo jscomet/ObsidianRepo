@@ -1,7 +1,8 @@
 {
 	"nodes":[
-		{"id":"b095ff58832adf72","x":-220,"y":-194,"width":240,"height":174,"type":"text","text":"用户表"},
-		{"id":"07c63b27c9d821e8","x":-205,"y":-139,"width":145,"height":65,"type":"text","text":""}
+		{"id":"b095ff58832adf72","x":-420,"y":-300,"width":220,"height":174,"type":"text","text":"用户表"},
+		{"id":"5ce4da55a261226d","x":-120,"y":-300,"width":210,"height":174,"type":"text","text":"用户角色表"},
+		{"id":"36bfd9b64dcc999e","x":-435,"y":-100,"width":250,"height":166,"type":"text","text":"用户权限表"}
 	],
 	"edges":[]
 }
