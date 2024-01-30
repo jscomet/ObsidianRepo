@@ -16,7 +16,7 @@
 		{"id":"b998f790c945fd18","x":440,"y":-540,"width":405,"height":220,"type":"text","text":"场地锁（venue_lock）\nid\nvenue_ids(场地ID数组')\ncreate_id创建人id\n锁定时间、原因"},
 		{"id":"66f65cade607e66e","x":1037,"y":-320,"width":288,"height":240,"type":"text","text":"场地表(venue)\nid\ntype_id场地类型id\n名称，描述，。。。"},
 		{"id":"06f877244e4a53e4","x":712,"y":140,"width":325,"height":180,"type":"text","text":"场地类型表（venue_type）\nid\napproval_process_id(审批流程ID)\n注意事项，用途，布置内容，设备。。。\n\n"},
-		{"id":"bedfe20d8d7f68b3","x":-2060,"y":-420,"width":620,"height":540,"type":"text","text":"### 宣传品申请表\nid\napplicant_id申请人id bigint\nsupervising_organization_ids 宣传部老师ids json\n\n\n使用单位 varchar(255)\n开始时间 date\n结束时间 date\n具体用途varchar(1024)\n使用情况说明 json（宣传品表的信息转换为JSON格式）\n\nfiles   '附件',   json\nextra_data      '附加数据',  json\nstatus       '状态', int  \ncreated_time      '创建时间',  \nabandoned_time   '放弃时间',  \ndeleted       '是否已删除'\n\n"},
+		{"id":"bedfe20d8d7f68b3","x":-2060,"y":-420,"width":620,"height":540,"type":"text","text":"### 宣传品申请表\nid\napplicant_id申请人id bigint\nsupervising_organization_ids 宣传部老师ids json\n\n\n使用单位 varchar(255)\n开始时间 date\n结束时间 date\n具体用途varchar(1024)\n使用情况说明 json（宣传品表的信息转换为JSON格式）\n\nfiles   '附件',   json\nextra_data      '附加数据',  json\nstatus       '状态', int   默认为0\ncreated_time      '创建时间',   datetime\nabandoned_time   '放弃时间',  datetime\ndeleted       '是否已删除' tinyint(1) 默认0\n\n"},
 		{"id":"9dccd3a0107e80f4","x":-2380,"y":-250,"width":220,"height":200,"type":"text","text":"### 宣传品数据\n\n地址 varchar(255)\n名称 varchar(64)\n数量 int\n高度  float(米)\n长度  float(米)"}
 	],
 	"edges":[
