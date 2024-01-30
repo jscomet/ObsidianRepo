@@ -30,6 +30,7 @@
 		{"id":"eac06b182f0cad19","fromNode":"5603736e60e40a8c","fromSide":"bottom","toNode":"318c82cd6dc32d88","toSide":"top","label":"process_id"},
 		{"id":"5679a21570f1102f","fromNode":"66f65cade607e66e","fromSide":"bottom","toNode":"06f877244e4a53e4","toSide":"top","label":"type_id"},
 		{"id":"a9619495f7758165","fromNode":"b998f790c945fd18","fromSide":"right","toNode":"66f65cade607e66e","toSide":"left","label":"venue_ids"},
-		{"id":"6271c1622bcd7caa","fromNode":"b998f790c945fd18","fromSide":"left","toNode":"1dafeb48d56429a2","toSide":"right","label":"create_id"}
+		{"id":"6271c1622bcd7caa","fromNode":"b998f790c945fd18","fromSide":"left","toNode":"1dafeb48d56429a2","toSide":"right","label":"create_id"},
+		{"id":"d144a33c4d8b33f4","fromNode":"06f877244e4a53e4","fromSide":"bottom","toNode":"318c82cd6dc32d88","toSide":"right","label":"approval_process_id"}
 	]
 }
