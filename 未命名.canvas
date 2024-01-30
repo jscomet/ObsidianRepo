@@ -10,7 +10,8 @@
 		{"id":"d5f6c9bfbf1495c6","x":440,"y":-492,"width":400,"height":332,"type":"text","text":"申请表\nid\napplicant_id  申请人学工号\nresponsible_teacher_ids  指导老师学工号\nsupervising_organization_ids 主管单位角色ID数组\nvenue_ids 申请场地ID数组"},
 		{"id":"66f65cade607e66e","x":514,"y":-788,"width":250,"height":60,"type":"text","text":"场地表\nid"},
 		{"id":"5603736e60e40a8c","x":440,"y":400,"width":400,"height":259,"type":"text","text":"审批步骤\nid\nprocess_id 审批流程ID"},
-		{"id":"a73f4a34a5f03504","x":440,"y":-12,"width":400,"height":332,"type":"text","text":"审批记录表\nid\napplication_id 申请人id\napprover_id 审批人学工号\napproval_step_id 审批步骤id"}
+		{"id":"a73f4a34a5f03504","x":440,"y":-12,"width":400,"height":332,"type":"text","text":"审批记录表\nid\napplication_id 申请人id\napprover_id 审批人学工号\napproval_step_id 审批步骤id"},
+		{"id":"318c82cd6dc32d88","x":440,"y":740,"width":400,"height":220,"type":"text","text":"审批流程\nid\nname"}
 	],
 	"edges":[
 		{"id":"c46d12ea28851fff","fromNode":"8236a4cb8fc662d5","fromSide":"top","toNode":"5ce4da55a261226d","toSide":"bottom","label":"role_id"},
@@ -21,6 +22,7 @@
 		{"id":"4b26a3a58e0f034e","fromNode":"d5f6c9bfbf1495c6","fromSide":"left","toNode":"1dafeb48d56429a2","toSide":"right","label":"applicant_id  \nresponsible_teacher_ids \nsupervising_organization_ids "},
 		{"id":"aee60416e194ec74","fromNode":"d5f6c9bfbf1495c6","fromSide":"top","toNode":"66f65cade607e66e","toSide":"bottom","label":"venue_ids"},
 		{"id":"7e7c56c054c165df","fromNode":"a73f4a34a5f03504","fromSide":"left","toNode":"1dafeb48d56429a2","toSide":"bottom","label":"application_id \napprover_id "},
-		{"id":"a6b034c58a8f981c","fromNode":"a73f4a34a5f03504","fromSide":"bottom","toNode":"5603736e60e40a8c","toSide":"top","label":"approval_step_id"}
+		{"id":"a6b034c58a8f981c","fromNode":"a73f4a34a5f03504","fromSide":"bottom","toNode":"5603736e60e40a8c","toSide":"top","label":"approval_step_id"},
+		{"id":"eac06b182f0cad19","fromNode":"5603736e60e40a8c","fromSide":"bottom","toNode":"318c82cd6dc32d88","toSide":"top","label":"process_id"}
 	]
 }
