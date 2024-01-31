@@ -3,7 +3,7 @@
 		{"id":"e4db8947c8dc8b12","x":400,"y":-600,"width":1000,"height":960,"type":"group","label":"场地申请相关"},
 		{"id":"250dae71cb4f3afd","x":-960,"y":280,"width":760,"height":1080,"type":"group","label":"审批相关"},
 		{"id":"1dafeb48d56429a2","x":-960,"y":-600,"width":780,"height":670,"type":"group","label":"用户相关（user、role、permission）"},
-		{"id":"b095ff58832adf72","x":-900,"y":-540,"width":220,"height":120,"type":"text","text":"用户表\nid\ncard_no"},
+		{"id":"b095ff58832adf72","x":-900,"y":-540,"width":220,"height":120,"color":"1","type":"text","text":"用户表\nid\ncard_no"},
 		{"id":"8236a4cb8fc662d5","x":-900,"y":-100,"width":250,"height":150,"type":"text","text":"用户与用户角色表\nuser_id\nrole_id\ncard_no"},
 		{"id":"5ce4da55a261226d","x":-660,"y":-540,"width":210,"height":120,"type":"text","text":"用户角色表\nid"},
 		{"id":"7cd0e4f71897cb18","x":-575,"y":-75,"width":250,"height":125,"type":"text","text":"角色与权限中间表\nrole_id\npermission_id\n"},
